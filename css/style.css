@@ -2,8 +2,38 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Montserrat, 'Helvetica Neue', sans-serif;
 }
 
+
+body {
+    background-color: aquamarine;
+}
+
+
+/* HEADER */
+header{
+    text-align: center;
+    padding: 25px;
+}
+
+h1 {
+    font-family: 'Nerko One', cursive;
+    size: 40px;
+    color: #ff9614;
+}
+
+
+
+/* MAIN */
+
+
+
+
+
+
+
+/* FOOTER */
 body {
     background-color: aquamarine;
 }
