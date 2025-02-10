@@ -7,7 +7,7 @@
 
 
 body {
-    background-color: aquamarine;
+    background-color: #f6f5f3;
 }
 
 
@@ -15,6 +15,7 @@ body {
 header{
     text-align: center;
     padding: 25px;
+    background-color: #ffffff;
 }
 
 h1 {
@@ -34,15 +35,17 @@ h1 {
 
 
 /* FOOTER */
-body {
-    background-color: aquamarine;
-}
-
 
 
 /* RESPONSITIVITà */
+
 /* TABLET */
 @media (min-width: 768px) {
+    header{
+        text-align: left;
+    }
+
+
     body {
         background-color: red;
     }
@@ -53,6 +56,10 @@ body {
 /* DESKTOP */
 
 @media (min-width: 992px) {
+    header{
+        text-align: left;
+    }
+    
     body {
         background-color: rgb(0, 255, 136);
     }
