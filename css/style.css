@@ -20,17 +20,48 @@ header{
 
 h1 {
     font-family: 'Nerko One', cursive;
-    size: 40px;
+    font-size: 40px;
     color: #ff9614;
 }
 
+img{
+    max-width: 100%;
+}
+
+ul{
+    list-style-type: none;
+    padding:40px 0px 40px 40px;
+}
 
 
 /* MAIN */
 
+.container-main{
+    padding: 30px 25px;
+}
 
+.viola{
+    color: #4e3969;
+    font-size: 25px;
+    padding:20px 0px 30px 0px;
+}
 
+.dolce{
+    display: none;
+}
 
+.white{
+    background-color: #ffffff;
+}
+
+.capolista{
+    padding: 10px 0px;
+    font-size:20px;
+}
+
+.lista{
+    padding: 10px 0px;
+}
 
 
 
@@ -43,6 +74,10 @@ h1 {
 @media (min-width: 768px) {
     header{
         text-align: left;
+    }
+
+    .dolce{
+        display: inline;
     }
 
 
@@ -58,6 +93,10 @@ h1 {
 @media (min-width: 992px) {
     header{
         text-align: left;
+    }
+
+    .dolce{
+        display: inline;
     }
     
     body {
