@@ -84,14 +84,20 @@ ul{
         display: inline;
     }
 
+    img{
+        max-width: 100%;
+    }
+
+
     .tablet{
         display: flex;
         flex-wrap: wrap;
         gap: 20px;
+        width: calc((100% - 40px)/ 3);
     }
 
     .capolista{
-        display: block;
+        width: 100%;;
 
 
     }
@@ -126,6 +132,7 @@ ul{
         align-items: baseline;
         
     }
+
     
     body {
         background-color: rgb(0, 255, 136);
